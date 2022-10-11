@@ -1,4 +1,10 @@
-html, 
+/*    '*' selector means everything, all HTML elements */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
 body {
   height: 100%;
   /* min-height: 100%; */
